@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 3 - Modulación</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-overlay">
+            <i class="fas fa-signal header-icon"></i>
+            <h1>Unidad 3 - Modulación</h1>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <a href="index.html" class="back-btn" style="margin-bottom: 20px; display:inline-block;">← Volver</a>
+
+        <section class="content-section technical-card">
+            <div class="card-header">
+                <i class="fas fa-signal section-icon"></i>
+                <h2>¿Qué es la Modulación?</h2>
+            </div>
+            <p>La modulación es el proceso mediante el cual una señal de información se combina con una señal portadora para poder transmitirse a largas distancias a través de medios como el aire, cables o fibra óptica.</p>
+            <p>En el contexto del GPS y los mapas en el celular, la modulación es clave para que los datos de posicionamiento y navegación puedan viajar desde los satélites hasta el dispositivo, y posteriormente a través de las redes móviles e internet.</p>
+            <p>Sin modulación, las señales de datos no podrían viajar eficientemente. Es la base de todas las comunicaciones modernas: desde la radio y la televisión hasta el GPS, el WiFi y las redes móviles 4G y 5G.</p>
+        </section>
+
+        <section class="topics">
+
+<div class="card subtopic-card">
+                <i class="fas fa-wave-square card-main-icon"></i>
+                <h3>3.1 Técnicas de modulación analógica</h3>
+                <p>Uso de AM y FM.</p>
+            </div>
+
+            <div class="card subtopic-card">
+                <i class="fas fa-microchip card-main-icon"></i>
+                <h3>3.2 Técnicas de modulación digital</h3>
+                <p>ASK, FSK, PSK y QAM.</p>
+            </div>
+
+            <div class="card subtopic-card">
+                <i class="fas fa-satellite card-main-icon"></i>
+                <h3>Técnica de modulación en GPS</h3>
+                <p>BPSK: la técnica más utilizada en el GPS.</p>
+            </div>
+
+            <div class="card subtopic-card">
+                <i class="fas fa-exchange-alt card-main-icon"></i>
+                <h3>3.3 Conversión analógico-digital</h3>
+                <p>Procesamiento de señales.</p>
+            </div>
+
+            <div class="card subtopic-card">
+                <i class="fas fa-project-diagram card-main-icon"></i>
+                <h3>3.4 Códigos de línea</h3>
+                <p>Transmisión de datos en telecomunicaciones.</p>
+            </div>
+
+            <div class="card subtopic-card">
+                <i class="fas fa-wifi card-main-icon"></i>
+                <h3>3.5 Módem, estándares y protocolos</h3>
+                <p>Comunicación con redes móviles.</p>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- MODAL -->
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <footer class="footer-line">
+        <p>Todos los derechos reservados 2026</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
